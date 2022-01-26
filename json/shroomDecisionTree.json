@@ -1,0 +1,165 @@
+{
+    "name": "odor == n ?",
+    "children": [
+        {
+            "name": "yes",
+            "children": [
+                {
+                    "name": "spore_print_color == r ?",
+                    "children": [
+                        {
+                            "name": "yes",
+                            "children": [
+                                {
+                                    "name": "p"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "no",
+                            "children": [
+                                {
+                                    "name": "stalk_surface_below_ring == y ?",
+                                    "children": [
+                                        {
+                                            "name": "yes",
+                                            "children": [
+                                                {
+                                                    "name": "gill_size == n ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "p"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "e"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "no",
+                                            "children": [
+                                                {
+                                                    "name": "cap_surface == g ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "p"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "e"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "no",
+            "children": [
+                {
+                    "name": "bruises == t ?",
+                    "children": [
+                        {
+                            "name": "yes",
+                            "children": [
+                                {
+                                    "name": "stalk_root == c ?",
+                                    "children": [
+                                        {
+                                            "name": "yes",
+                                            "children": [
+                                                {
+                                                    "name": "e"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "no",
+                                            "children": [
+                                                {
+                                                    "name": "stalk_root == r ?",
+                                                    "children": [
+                                                        {
+                                                            "name": "yes",
+                                                            "children": [
+                                                                {
+                                                                    "name": "e"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "no",
+                                                            "children": [
+                                                                {
+                                                                    "name": "gill_spacing == c ?",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "yes",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "p"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "no",
+                                                                            "children": [
+                                                                                {
+                                                                                    "name": "e"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "no",
+                            "children": [
+                                {
+                                    "name": "p"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
